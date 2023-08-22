@@ -7,15 +7,23 @@ h1 {
     color: #f00;
 }
 /* External CSS-------------Shown Above ----(Recommended)------------------------------- */
-div {
+.orange {
+    color: orange;
     width: 100%;
     max-width: 200px;
-    height: 100vh;
     border: 10px solid black;
     border-width: 3px;
     border-style: dotted;
     border-color: red;
     font-size: 12px;
     font-weight: 600;
-    font-family: "roboto";
+    font-family: "roboto", sans-serif
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
 }
