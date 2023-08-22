@@ -8,5 +8,14 @@ h1 {
 }
 /* External CSS-------------Shown Above ----(Recommended)------------------------------- */
 div {
-    width: 500px;
+    width: 100%;
+    max-width: 200px;
+    height: 100vh;
+    border: 10px solid black;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: red;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "roboto";
 }
