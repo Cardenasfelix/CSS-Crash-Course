@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
     <!-- -----------Internal CSS-------Using <style> tags within an HTML file / Inside the HTML <head> -->
     <style>
         h1 {
@@ -21,22 +21,36 @@
 <body>
     <!-- ----------Inline CSS-------- style is shown below where you insert the Style
     directly in the HTML Element -->
-    <h1 style="color: red">
-        My Name is Felix.
-    </h1>
+    <h1 style="color: red">My Name is Felix.</h1>
     <!-- ----------Inline CSS Above------------------------------------------------- -->
-    <div>
-        <p class="orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit, dolorum exercitationem nesciunt, numquam
-            nisi labore asperiores dolorem cupiditate ex praesentium! Est possimus aut, vero ipsam doloremque voluptas
-            provident totam!
+    <section id="home">
+        <h1>Home</h1>
+        <p class="red">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit,
+            dolorum exercitationem nesciunt, numquam nisi labore asperiores dolorem
+            cupiditate ex praesentium! Est possimus aut, vero ipsam doloremque
+            voluptas provident totam!
         </p>
-    </div>
-    <p class="red">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis eos quisquam architecto numquam
-        sed possimus pariatur voluptatem et deleniti odit?
-    </p>
-    <p class="blue">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis eos quisquam architecto numquam
-        sed possimus pariatur voluptatem et deleniti odit?
-    </p>
+        <a href="#info">Go to Info</a>
+    </section>
+    <section id="info">
+        <h1>Info</h1>
+        <p class="red">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis eos
+            quisquam architecto numquam sed possimus pariatur voluptatem et deleniti
+            odit?
+        </p>
+        <a href="#footer">Go to Footer</a>
+    </section>
+    <section id="footer">
+        <h1>Footer</h1>
+        <p class="blue">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis eos
+            quisquam architecto numquam sed possimus pariatur voluptatem et deleniti
+            odit?
+        </p>
+        <a href="#home">Go to Home</a>
+    </section>
 </body>
 
 </html>
