@@ -8,11 +8,11 @@ div {
     border: 3px solid black;
 }
 
-/* Below shows how Position Fixed works / any element will be placed permanently on a location depending on assigned location */
+/* Below shows an example of CSS Position Sticky value / Once you set a range, after you scroll up or down, the element will stick to that range location set. */
 .red {
  background: red;
- position: fixed;
- top: 0;
+ position: sticky;
+ top: 100px;
  width: 100%;
  box-sizing: border-box;
 }
