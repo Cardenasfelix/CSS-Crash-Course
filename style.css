@@ -1,28 +1,34 @@
-/* Below will show examples of how Media Queries make a web page responsive */
-
+/* Pseudo Selector Examples / This will target elements based on their tag name  */
+/* Below are examples of how to hover over any element and have the affect to be highlighted */
 div {
-    background-color: red;
-    color: white;
-    font-size: 24px;
+  transition: background-color 300ms;
 }
 
-@media (max-width: 992px) {
-    div {
-        font-size: 20px;
-    }
+div:hover {
+  background-color: lightslategray;
 }
 
-@media (max-width: 768px) {
-    div {
-        font-size: 18px;
-    }
+/* By adding "animation" property it will activate the "keyframe" property */
+/* This animation is affecting the Button tag in HTML file, since we are targeting it in CSS */
+button {
+  animation: float 2000ms infinite alternate-reverse; 
+  transition: all 300ms;
 }
 
-@media (max-width: 576px) {
-    div {
-        font-size: 16px;
-    }
+button:hover {
+  background-color: lightslategray;
+  color: whitesmoke;
 }
 
+/* Below will show how the elements or image will have the effect of hovering with a shadow below it.*/
+/* When applying "keyframes", you need to add a "transform" property within a child to have this animation working */
 
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
 
+  100% {
+    transform: translateY(15px);
+  }
+}
