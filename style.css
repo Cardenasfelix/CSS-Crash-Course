@@ -1,34 +1,11 @@
-/* Pseudo Selector Examples / This will target elements based on their tag name  */
-/* Below are examples of how to hover over any element and have the affect to be highlighted */
-div {
-  transition: background-color 300ms;
+/* Below will show examples of BEM known as Block, Element, Modifier */
+
+.nav__link {
+  color: teal;
 }
 
-div:hover {
-  background-color: lightslategray;
+.nav__link--active {
+  color:tomato;
+  font-weight: bold;
 }
 
-/* By adding "animation" property it will activate the "keyframe" property */
-/* This animation is affecting the Button tag in HTML file, since we are targeting it in CSS */
-button {
-  animation: float 2000ms infinite alternate-reverse; 
-  transition: all 300ms;
-}
-
-button:hover {
-  background-color: lightslategray;
-  color: whitesmoke;
-}
-
-/* Below will show how the elements or image will have the effect of hovering with a shadow below it.*/
-/* When applying "keyframes", you need to add a "transform" property within a child to have this animation working */
-
-@keyframes float {
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(15px);
-  }
-}
